@@ -1,6 +1,5 @@
 # vending-machine
-Applicant: Kenneth Gabriel G. Tecson
-
+ Applicant: Kenneth Gabriel G. Tecson
 
 ## Project setup
 ```
@@ -8,18 +7,29 @@ npm install
 ```
 
 ## Features
+ *Accepts bills and calculates change*
+      
+   Samle input and output:
+- Input  
+     - Bill: `50`
+     - Owed: `12`
+- Output
+     - Change:
+     `1 ₱20 bill`
+     `1 ₱10 coin`
+     `1 ₱5 coin`
+     `3 ₱1 coin`
 
-  *Accepts bills and calculates change*
   
-  *Responsive design*
-  On tablets, displays a 3-column layout with products at the bottom.
-  On phones, displays a 2-column layout with products at the bottom.
-  Displays product examples and prices; hover and zoom effect.
+*Responsive design*
+ - On tablets, displays a 3-column layout with products at the bottom.
+ - On phones, displays a 2-column layout with products at the bottom.
+ - Displays product examples and prices; hover and zoom effect.
   
   *Includes Toastification:*
-  Handles scenarios where the bill is 0 and the owed amount is 0.
-  Handles scenarios where the bill is greater than 0 and equal to the owed amount.
-  Handles scenarios where the bill is less than the owed amount.
+ - Handles scenarios where the bill is 0 and the owed amount is 0.
+ - Handles scenarios where the bill is greater than 0 and equal to the owed amount.
+ - Handles scenarios where the bill is less than the owed amount.
 
 
 ## Specific Versions of Dependencies
