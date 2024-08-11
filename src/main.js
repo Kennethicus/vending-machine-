@@ -1,4 +1,14 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from 'vue';
+import App from './App.vue';
+import Toast, { POSITION } from 'vue-toastification';
+import 'vue-toastification/dist/index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-createApp(App).mount('#app')
+const app = createApp(App);
+
+app.use(Toast, {
+  position: POSITION.TOP_RIGHT,
+  timeout: 3000,
+});
+
+app.mount('#app');
