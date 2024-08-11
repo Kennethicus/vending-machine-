@@ -1,3 +1,5 @@
+![Graphical feature](UI-of-vendo-machine.png)
+
 # vending-machine
  Applicant: Kenneth Gabriel G. Tecson
 
