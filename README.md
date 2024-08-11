@@ -1,3 +1,5 @@
+![Graphical feature](UI-of-vendo-machine.png)
+
 # vending-machine
  Applicant: Kenneth Gabriel G. Tecson
 
@@ -30,7 +32,7 @@ npm install
  - Handles scenarios where the bill is 0 and the owed amount is 0.
  - Handles scenarios where the bill is greater than 0 and equal to the owed amount.
  - Handles scenarios where the bill is less than the owed amount.
-
+ - Handles scenarios owed amount must be between 0 and 1000.
 
 ## Specific Versions of Dependencies
 
